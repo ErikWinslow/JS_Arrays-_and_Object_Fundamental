@@ -136,7 +136,7 @@ console.log(hasProperty( {name : "Ani"}, "name") ) ;
 
 function countProperties ( obj ) {
 
-   return Object.keys(obj);
+   return Object.keys(obj).length;
 
 }
 

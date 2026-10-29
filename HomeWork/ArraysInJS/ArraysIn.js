@@ -66,19 +66,18 @@ console.log(getFirstAndLast(["a" , "b" , "c" , "d"])); // [a , d] ;
 
  // task 5
  
- /*
+/* 
 
  function removeLast (arr) {
 
-    arr.pop() ;
-
-    return arr ;
+    return arr.pop() ;
 
  }
 
- console.log(removeLast([1 , 2 , 3]));
+ console.log(removeLast([1 , 2 , 3 ] ) );
 
- */
+*/
+
 
  // task 6
 
@@ -119,28 +118,29 @@ console.log(getFirstAndLast(["a" , "b" , "c" , "d"])); // [a , d] ;
 
  function JoinWords (arr) {
 
-    return `"${arr.join()}"`;
+    return arr.join();
 
  }
 
  console.log(JoinWords(["I" , "Love" , "JS"])) ;
 
- */
+*/
+
 
  // task 9
 
- /*
+/*
 
  function firstThree (arr) {
 
-    return arr.slice(0 , -2) ;
+    return arr.slice(0 , 3) ;
 
 
  }
 
- console.log(firstThree([5 , 10 , 15 , 20 , 25])) ;
+ console.log(firstThree([5 , 10 , 15 , 20 , 25 , 35 , 45])) ;
 
- */
+*/
 
  // task 10
 

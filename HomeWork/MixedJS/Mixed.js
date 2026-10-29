@@ -27,7 +27,7 @@ console.log (getSecondName( [
 
 function getLastPrice ( products ) {
 
-  return products[1].price;
+  return products.at(-1).price;
 
 }
 
@@ -36,6 +36,8 @@ console.log(getLastPrice ( [
     {title : "Pen" , price : 200} ,
 
     {title : "NoteBook" , price : 900} ,
+
+    {title : "Apple" , price : 1000} ,
 
 ] ) ) ;
 
