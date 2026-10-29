@@ -118,7 +118,7 @@ console.log(getFirstAndLast(["a" , "b" , "c" , "d"])); // [a , d] ;
 
  function JoinWords (arr) {
 
-    return arr.join();
+    return arr.join("");
 
  }
 
